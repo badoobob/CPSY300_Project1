@@ -1,12 +1,9 @@
-import json
-
 def lambda_handler():
-    """
-    Simulated serverless function.
-    """
+    import json   # moved inside function to reduce load time
+    
     result = {
         "status": "success",
-        "message": "Serverless function executed successfully"
+        "message": "Optimized serverless execution"
     }
     return json.dumps(result)
 
