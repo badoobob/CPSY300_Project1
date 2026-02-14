@@ -7,4 +7,4 @@ def calculate_average(df):
     return df.groupby('Diet_type')[['Protein(g)', 'Carbs(g)', 'Fat(g)']].mean()
 
 if __name__ == "__main__":
-    print("Data analysis container executed successfully.") 
+    print("Data analysis container executed successfully.")
