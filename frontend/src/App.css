@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* HEADER */
+.title {
+  background-color: #2f64d6;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* FILTERS */
+.filters {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+}
+
+.btn-green {
+  background-color: #16a34a;
+}
+
+.btn-purple {
+  background-color: #7c3aed;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* META */
+.meta {
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background-color: #e5e7eb;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+/* PAGINATION */
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  background: #d1d5db;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background: #2563eb;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  background-color: #2f64d6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

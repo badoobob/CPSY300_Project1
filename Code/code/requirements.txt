@@ -1,0 +1,7 @@
+pandas
+matplotlib
+seaborn
+azure-storage-blob
+pytest
+azure-functions
+azure-storage-blob

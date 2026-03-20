@@ -1,5 +1,0 @@
-pandas
-matplotlib
-seaborn
-azure-storage-blob
-pytest
